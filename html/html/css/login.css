@@ -57,7 +57,11 @@ input{
     font-stretch:narrower;
 }
 .continuebtn:hover{
-    opacity: 100%;
+    cursor: pointer;
+    opacity: 60%;
+}
+.continuebtn:active{
+    opacity: 30%;
 }
 .sep-line{
     margin-top: 5%;
